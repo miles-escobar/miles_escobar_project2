@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+space {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+body {
+  min-height: 100vh;
+  color: white;
+  background-color: #FFb6C1;
+  font-family: "Modak", system-ui;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-right: 4px;
+  position: relative;
+}
+
+.ive1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 1s forwards;
+}
+
+.never1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 1.25s forwards;
+}
+
+.known {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 2s forwards;
+}
+
+.someone {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 3s forwards;
+}
+
+.like {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 3.5s forwards;
+}
+
+.you1 {
+  opacity: 0;
+  animation: fadeIn 2s ease-in 4s forwards;
+}
+
+.tangled {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 6.5s forwards;
+}
+
+.in1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 7.3s forwards;
+}
+
+.love1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 7.5s forwards;
+}
+
+.stuck1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 8.3s forwards;
+}
+
+.by1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 8.7s forwards;
+}
+
+.you2 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 9s forwards;
+}
+
+.from {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 9.7s forwards;
+}
+
+.the1 {
+  opacity: 0;
+  animation: fadeIn 1s ease-in 10s forwards;
+}
+
+.glue1 {
+  opacity: 0;
+  animation: fadeIn 2s ease-in 10.3s forwards;
+  text-decoration: none;
+  color: #9E7CD7;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+

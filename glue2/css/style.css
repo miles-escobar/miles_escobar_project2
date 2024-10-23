@@ -24,16 +24,92 @@
     position: relative;
   }
   
-  .finding {
-    opacity: 0;
-    animation: fadeIn 1s ease-in 1s forwards;
+  .dont {
+    position: relative;
+    animation: slideDown 1s ease-in;
+  }
+
+  .forget {
+    position: relative;
+    animation: slideUp 1.5s ease-in;
+  }
+
+  .to1 {
+    position: relative;
+    animation: slideDown 2s ease-in;
+  }
+
+  .kiss {
+    position: relative;
+    animation: slideUp 2.5s ease-in;
+  }
+
+  .me1 {
+    position: relative;
+    animation: slideDown 3s ease-in;
+  }
+
+  .or {
+    position: relative;
+    animation: slideUp 3.3s ease-in;
+  }
+
+  .else {
+    position: relative;
+    animation: slideDown 4s ease-in;
+  }
+
+  .youll {
+    position: relative;
+    animation: slideUp 4.3s ease-in;
+  }
+
+  .have1 {
+    position: relative;
+    animation: slideDown 4.7s ease-in;
+  }
+
+  .to2 {
+    position: relative;
+    animation: slideUp 5s ease-in;
+  }
+
+  .miss {
+    position: relative;
+    animation: slideDown 5.3s ease-in;
+  }
+
+  .me2 {
+    position: relative;
+    animation: slideUp 5.9s ease-in;
+    text-decoration: none;
+    color: #FFb6C1;
   }
   
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-      transform: scale(2);
+  
+
+  @keyframes slideDown {
+    from {
+     top: -100vh;
+     opacity: 0; 
     }
-}
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      top: 100vh;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  
   
   

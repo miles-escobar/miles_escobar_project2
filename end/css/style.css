@@ -12,6 +12,19 @@ body {
   background: #AFD6E5;
   color: #fff;
 }
+
+.restart {
+  position: fixed;
+    top: 20%;
+    right: 320px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in 7.3s forwards;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; /*I don't why most of my restart class is not working, I tried puttin the class on line 17 and 43, neither worked*/
+}
+
 .test {
   display: inline-block;
   vertical-align: middle;
@@ -63,5 +76,13 @@ p {
     filter: url("#squiggly-4");
   }
 }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
 
 /*entirety of this css page was by Lucas Bebber, outside of me changing the background color. Link to his work can be seen in the readme file.

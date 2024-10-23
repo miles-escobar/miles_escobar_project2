@@ -10,7 +10,7 @@ Community can mean a lot of things. For me, I view community as the people you l
 Translate written word that describes community, into a visually appealing and smooth website, using a variety of animations to give words value and meaning. 
 
 ## Acknowledgment
-Here is one source that heavily influenced my final page for this project.
+Here is one source that heavily influenced my final page for this project. The exact css text animation that was used is credited to Lucas Bebber, who made the "Squiggly Text" animation. 
 
 
 https://www.sliderrevolution.com/resources/css-text-animation/

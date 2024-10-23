@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  space {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  body {
+    min-height: 100vh;
+    color: white;
+    background-image: linear-gradient(to bottom right,#FFb6C1, #9E7CD7);
+    font-family: "Modak", system-ui;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 4px;
+    position: relative;
+  }
+  
+  .i1:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .guess:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .im1:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .stuck2:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .forever:hover{
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+    animation-direction: alternate;
+  }
+
+  .by2:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .the2:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .glue2:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .oh:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .and1:hover{
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+  .you3 {
+    text-decoration: none;
+    color:#AFD6E5;
+  }
+
+  .you3:hover {
+    display: inline-block;
+    animation: flip ease-in-out 2s; 
+  }
+
+
+
+
+@keyframes flip {
+    from {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(-1);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
